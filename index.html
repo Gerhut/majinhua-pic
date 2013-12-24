@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>majinhua-pic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>majinhua-pic</h1>
+      <form id="main" class="row">
+        <div class="col-sm-5">
+          <input id="horizontal"
+                 type="text"
+                 placeholder="Horizontal"
+                 class="form-control"
+                 value="hello">
+        </div>
+        <div class="col-sm-5">
+          <input id="vertical"
+                 type="text"
+                 placeholder="Vertical"
+                 class="form-control"
+                 value="world">
+        </div>
+        <div class="col-sm-2">
+          <button type="submit" class="btn btn-primary btn-block">Generate</button>
+        </div>
+      </form>
+      <img id="output">
+    </div>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
